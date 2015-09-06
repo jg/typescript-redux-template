@@ -1,0 +1,17 @@
+{
+  "repository": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-ts": "^4.2.0",
+    "redux-devtools": "^2.1.0",
+    "typescript": "^1.6.0-beta"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "react": "^0.13.3",
+    "react-redux": "^2.1.0",
+    "redux": "^2.0.0",
+    "underscore": "^1.8.3"
+  }
+}
