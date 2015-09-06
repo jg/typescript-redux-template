@@ -7,6 +7,7 @@ module.exports = function (grunt) {
             build: {
                 src: ['ts/**/*.ts', 'ts/**/*.tsx'],
                 out: 'js/bundle.js',
+                outDir: 'js',
                 reference: 'ts/references.ts',
                 options: {
                     additionalFlags: '--jsx react',
