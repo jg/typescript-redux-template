@@ -11,3 +11,5 @@ js/*
 node_modules
 .tscache/
 ts/references.ts
+_build
+
