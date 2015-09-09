@@ -1,9 +1,15 @@
+/// <reference path="../references.ts" />
+
 import { createStore, applyMiddleware } from 'redux';
-import reducer from '../reducers/counter';
+import thunk from 'redux-thunk';
+import reducer from '../reducers/index';
+
+const createStoreWithMiddleware = applyMiddleware(
+  thunk
+)(createStore);
 
 export default function configureStore() {
-  let store = createStore(reducer);
+  const store = createStoreWithMiddleware(reducer);
 
   return store;
-
 }
